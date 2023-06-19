@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    private readonly float speed = 5.0f;
+    private readonly float speed = 4.0f;
     private readonly float powerupStrenght = 15.0f;
     private bool hasPowerup = false;
     private Rigidbody playerRB;
@@ -41,6 +41,10 @@ public class PlayerController : MonoBehaviour
             hasPowerup = true;
             powerupIndicator.gameObject.SetActive(true);
             StartCoroutine("PowerupCountdownRoutine"); //Works on a different thread
+        }
+        else if (other.CompareTag("PowerupRockets"))
+        {
+
         }
     }
 
