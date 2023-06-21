@@ -175,6 +175,7 @@ MonoBehaviour:
   - {fileID: 8315204229017754594, guid: a62bcffac5aa871408dd6c568464870c, type: 3}
   - {fileID: 7400743162211079281, guid: 1a280b55608f09c4c944761a47b4d96f, type: 3}
   - {fileID: 4473797384768427703, guid: 37550ae4a06d3a5459d4280902c4e123, type: 3}
+  enemyBoss: {fileID: 2639219696800720168, guid: be18330dac30c8e448bdd400797d8e41, type: 3}
 --- !u!1001 &245963551
 PrefabInstance:
   m_ObjectHideFlags: 0
